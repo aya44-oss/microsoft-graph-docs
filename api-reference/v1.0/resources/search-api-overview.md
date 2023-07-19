@@ -56,7 +56,7 @@ The following table describes the types available to query and the supported per
 
 Control pagination of the search results by specifying the following two properties in the **query** request body:
 
-- **from** - An integer that indicates the 0-based starting point to list search results on the page. The default value is 0.
+- **from** - An integer that indicates the 0-based starting point to list search results on the page. The default value is 0. The maximum is 100000.
 
 - **size** - An integer that indicates the number of results to be returned for a page. The default is 25 results. The maximum is 1000 results.
 
